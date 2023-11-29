@@ -15,3 +15,17 @@ pred_data_preparation:
   prediction_db: Prediction.db
   prediction_db_dir: Prediction_Database
   schema_prediction: config/schema_prediction.json
+
+traning:
+  random_forest:
+    cv: 5
+    verbose: 3
+    param_grid:
+      n_estimators:
+        - 10
+        - 50
+        - 100
+        - 130
+      criterion:
+        - gini
+        - entropy
