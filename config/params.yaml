@@ -29,3 +29,16 @@ traning:
       criterion:
         - gini
         - entropy
+      max_depth:
+        - 2
+        - 4
+      max_features:
+        - auto
+        - log2
+  xg_boot:
+    cv: 5
+    verbose: 3
+    param_grid:
+      learning_rate:
+        - 0.5
+        - 0.7
