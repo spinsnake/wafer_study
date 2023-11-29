@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=Ly3Dor8HZUA&ab_channel=KrishNaik
 https://c17hawke.github.io/wafer_mlops_docs/stage1_init_setup/
+https://www.youtube.com/watch?v=n4sz9cG_B7k&ab_channel=KrishNaik
 
 dvc remote modify storage gdrive_client_id '622988474257-3hf5t037mcoviq111cpa5e6hfv5ul9mi.apps.googleusercontent.com'
 dvc remote modify storage gdrive_client_secret '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'
