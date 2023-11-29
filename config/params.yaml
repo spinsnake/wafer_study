@@ -1,0 +1,17 @@
+base:
+  project: Wafer-Quality-Project
+  random_state: 42
+  target_col: Output
+
+data_source:
+  batch_files: Traning_Batch_Files
+
+data_preparation:
+  traning_db: Traning.db
+  traning_db_dir: Traning_Database
+  schema_traning: config/schema_traning.json
+
+pred_data_preparation:
+  prediction_db: Prediction.db
+  prediction_db_dir: Prediction_Database
+  schema_prediction: config/schema_prediction.json
